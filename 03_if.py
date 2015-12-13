@@ -9,6 +9,7 @@ else:
 	z = z+4
 print(x,y,z)
 
+
 #这里有三个块，分别属于if, elif, else引领
 i = 1
 
