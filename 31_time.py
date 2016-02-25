@@ -27,8 +27,9 @@ print(str(st.tm_year) + '-' + str(st.tm_mon) + '-' + str(st.tm_mday),str(st.tm_h
 s = time.mktime(st)		# 将struct_time格式转换成wall clock 
 print(s)
 
-
-
+ISOTIMEFORMAT='%Y-%m-%d %X'
+s = time.strftime( ISOTIMEFORMAT,time.localtime())
+print(s)
 
 
 
